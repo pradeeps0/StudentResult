@@ -1,0 +1,136 @@
+</head>
+<link rel="stylesheet" href="style.css">
+    <body >
+    <div class="container">
+        <!-- TOP NAVIGATION BAR     -->
+        <div class="top-nav-bar" id="top-nav-bar">
+            <!-- WEBSITE NAME OR LOGO -->
+            <div class="web-name" id="web-name" title="website">
+               <a href="home">MARKSHEET RESULT</a> <br>
+               <a style="color: blue; font-size: 10px;">marksheet result page</a> 
+            </div>
+            <!-- MAIN MENU -->
+            <ul class="main-menu" id="main-menu" title="main menu">
+                <li><a href="admin" title="admin login">ADMIN</a></li>
+                <li><a href="home" title="home">HOME</a></li>
+                <li><a href="result" title="result">RESULT</a></li>
+                <li><a href="register" title="register">SIGNUP</a></li>
+                <li><a href="login_page" title="login">LOGIN</a></li>
+                <li><a href="logout_user" title="logout">LOGOUT</a></li>
+                </ul>
+
+            <a href="javascript:void(0);" id="mob-nav-open" class="icon" onclick="mobnav()">
+            <i class="fa fa-bars fa-lg"></i>
+            </a>
+            <a href="javascript:void(0);" id="mob-nav-close" class="icon" onclick="mobnavclose()">
+                <i class="fas fa-times fa-lg"></i>
+                </a>
+        </div> 
+
+
+        <!-- Main Content -->
+        <div id="content">
+            <form action="click_here_to_get_result"  id="search" style="font-size: 1.5vw;">
+              <label for="register_number">Register Number: </label>
+              <input id="register_number"
+              oninput="this.value=this.value.slice(0,this.maxLength)"
+              type="number" required name="mobile_number" maxlength="12">
+              <button id="submit" type="submit" >Click Here to Get Result</button>
+            </form>
+            <br><br>
+
+               <span><a id="print" href="print">Print</span>
+			   
+               <table >
+			   
+                <tr >
+                    <th id="t"> Register Number </th>
+                    <td> 4121128041 </td>
+                </tr>
+                <tr>
+                    <th id="t"> Name </th>
+                    <td> PRADEEP S </td>
+                </tr>
+                <tr>
+                    <th id="t"> Date Of Birth </th>
+                    <td> 09/04/2004 </td>
+                </tr>
+               </table>
+
+               <table>
+                <tr>
+                    <th> Sl.No </th>
+					<th> Subject Code </th><br>
+                    <th> Internal Mark </th>
+                    <th> External Mark </th>
+                    <th> Mark Scored </th>
+                    <th> Result </th>
+                </tr>
+
+                <tr>
+				<td> 1 </td>
+                    <td> 7BCE5C1 </td>
+                    <td> 25 </td>
+                    <td> 64 </td>
+                    <td> 89 </td>
+                    <td> P </td>
+                </tr>
+                <tr>
+				<td> 2 </td>
+                    <td id="m"> 7BCE5C2 </td>
+                    <td id="m"> 25 </td>
+                    <td id="m"> 60 </td>
+                    <td id="m"> 85 </td>
+                    <td id="m"> P </td>
+                </tr>
+                <tr>
+				<td> 3 </td>
+                    <td> 7BCE5P2 </td>
+                    <td> 39 </td>
+                    <td> 59 </td>
+                    <td> 98 </td>
+                    <td> P </td>
+                </tr>
+                <tr>
+				<td> 4 </td>
+                    <td id="m"> 7BCEE1B </td>
+                    <td id="m"> 23 </td>
+                    <td id="m"> 55 </td>
+                    <td id="m"> 78 </td>
+                    <td id="m"> P </td>
+                </tr>
+                <tr>
+				<td> 5 </td>
+                    <td> 7BCEE2A </td>
+                    <td> 24 </td>
+                    <td> 51 </td>
+                    <td> 75 </td>
+                    <td> P </td>
+                </tr>
+                <tr>
+				<td> 6 </td>
+                    <td id="m"> 7SBS5A4 </td>
+                    <td id="m"> 23 </td>
+                    <td id="m"> 47 </td>
+                    <td id="m"> 70 </td>
+                    <td id="m"> P </td>
+                </tr>
+                <tr>
+				<td> 7 </td>
+                    <td> 7SBS5A5 </td>
+                    <td> 20 </td>
+                    <td> 52 </td>
+                    <td> 72 </td>
+                    <td> P </td>
+                </tr>
+               </table>
+               <span>
+                <b> P-PASS | F-FAIL | AA-Absent | RA - Re-Appear (from 2021-2024 Batch) </b
+               
+			   </span>
+
+        </div>    
+    </div>
+
+    </body>
+    </html>
